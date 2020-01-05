@@ -5,7 +5,7 @@
   "main": "pocAxios.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node apiCoreBiz.js"
+    "start": "node apiCorebiz.js"
   },
   "author": "",
   "license": "ISC",
