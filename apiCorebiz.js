@@ -14,7 +14,7 @@ app.use(function(req, res, next) {
 
 app.use(bodyParser());
 
-app.post("/api/post", (req, res) => {
+app.post("/post", (req, res) => {
   const data = req.body;
   const resp = res;
   request.post(
@@ -35,4 +35,4 @@ app.post("/api/post", (req, res) => {
   );
 });
 
-app.listen(port, () => console.warn(`Listening on port ${port}`));
+app.listen(port);
